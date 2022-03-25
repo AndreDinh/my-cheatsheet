@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NestedObject from './components/nestedObject';
+import Looping from './components/looping';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <NestedObject/> */}
-    <App />
+    {/* <App /> */}
+    <Looping />
   </React.StrictMode>,
   document.getElementById('root')
 );

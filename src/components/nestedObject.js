@@ -1,5 +1,5 @@
 import './nestedObject.css';
-import People from './Objects.js'; // this is my object i'm grabing
+import {People} from './Objects.js'; // this is my object i'm grabing
 function NestedObject() {
   return(
   <div>
